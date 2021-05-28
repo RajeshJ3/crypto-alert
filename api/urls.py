@@ -8,4 +8,5 @@ urlpatterns = [
     path('api/auth/registration/', include('dj_rest_auth.registration.urls')),
 
     path('api/alerts/', include('alerts.urls')),
+    path('api/apicalls/', include('apicalls.urls')),
 ]
